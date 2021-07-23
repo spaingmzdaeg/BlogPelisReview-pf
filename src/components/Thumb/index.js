@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 // Links
 import { Link } from "react-router-dom";
 // Estilos
@@ -16,5 +17,11 @@ const Thumb = ({ image, movieId, clickable }) => (
     ;
   </div>
 );
+
+Thumb.propTypes = {
+  image: PropTypes.string,
+  movieId: PropTypes.number,
+  clickable: PropTypes.bool,
+};
 
 export default Thumb;
