@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   display: flex;
   width: 100%;
-  max-width: var(--maxWith);
+  max-width: var(--maxWidth);
   padding: 0 20px;
 
   span {
@@ -22,9 +22,7 @@ export const Content = styled.div`
     padding-right: 10px;
 
     @media screen and (max-width: 768px) {
-        font-size: var(--fontSmall);
+      font-size: var(--fontSmall);
     }
   }
-
 `;
-

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.button`
   display: block;
@@ -11,13 +11,11 @@ export const Wrapper = styled.button`
   border: 0;
   font-size: var(--fontBig);
   margin: 20px auto;
-  transition = all 0.3s;
+  transition: all 0.3s;
   outline: none;
   cursor: pointer;
 
   :hover {
     opacity: 0.8;
   }
-
-
 `;
